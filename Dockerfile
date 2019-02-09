@@ -10,8 +10,9 @@ RUN conda update --all
 RUN conda install -c pytorch -c fastai fastai
 RUN conda install -c conda-forge xgboost
 #RUN conda install -c conda-forge keras
-RUN conda install -c requests bs4 tqdm
-
+RUN conda install -c conda-forge requests 
+RUN conda install -c conda-forge beautifulsoup4 
+RUN conda install -c conda-forge tqdm
 
 EXPOSE 8888
 

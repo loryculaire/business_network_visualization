@@ -7,7 +7,7 @@ to build image run command:
 
 to run notebook run command:
 
-`docker run --name docker-data-science -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d docker-business-network-visualization`
+`docker run --name docker-business-network-visualization -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d docker-business-network-visualization`
 
 to access notebook:
 
